@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/DBI-R.png">
+    <title>Official DickButt on INK Site</title>
+    
+    <!-- Microsoft Clarity Analytics -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "pq38co2rnw");
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Official DickButt on INK Site">
+    <meta name="description" content="Enjoy the classic DickButt meme on INK. No founders allocation. No pre-sale. No tax. Just dickbutt.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dickbutt.ink">
+    <meta property="og:title" content="Official DickButt on INK Site">
+    <meta property="og:description" content="Enjoy the classic DickButt meme on INK. No founders allocation. No pre-sale. No tax. Just dickbutt.">
+    <meta property="og:image" content="https://dickbutt.ink/assets/images/social-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dickbutt.ink">
+    <meta property="twitter:title" content="Official DickButt on INK Site">
+    <meta property="twitter:description" content="Enjoy the classic DickButt meme on INK. No founders allocation. No pre-sale. No tax. Just dickbutt.">
+    <meta property="twitter:image" content="https://dickbutt.ink/assets/images/social-preview.png">
+
+    <!-- Windows 98 Theme -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.20/dist/98.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
+    <!-- Webamp Dependencies -->
+    <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
+    <style>
+        #webamp {
+            position: absolute;
+            right: 20px;
+            top: 600px;
+            z-index: 9999;
+            cursor: move;
+            touch-action: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        @media (max-width: 768px) {
+            #webamp {
+                right: 10px;
+                top: 600px;
+                transform: scale(0.85);
+                transform-origin: top right;
+            }
+        }
+
+        #webamp.dragging {
+            position: fixed;
+            transform: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Webamp Container -->
+    <div id="webamp"></div>
+    
+    <!-- Overlay for Media Dialog -->
+    <div class="overlay" id="media-overlay"></div>
+    
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <!-- DBI Menu -->
+            <div class="window menu-window">
+                <div class="title-bar">
+                    <div class="title-bar-text">DickButt on INK Menu</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <ul>
+                        <li><a href="#welcome-window">Home</a></li>
+                        <li><a href="#tokenomics-window">Tokenomics</a></li>
+                        <li><a href="#roadmap-window">Roadmap</a></li>
+                        <li><a href="#media-explorer">Memes</a></li>
+                        <li><a href="https://x.com/DickButtOnINK" target="_blank">Twitter</a></li>
+                        <li><a href="https://t.me/DickButtOnINK" target="_blank">Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Image Window -->
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <img src="assets/images/DBI-R.png" alt="DickButt" style="width: 100%;">
+                    <div style="text-align: center; margin-top: 4px;">
+                        <img src="assets/images/buttblinky.gif" alt="DickButt">
+                        <div style="margin-top: 4px;">+ Your butt is MINE! +</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Welcome Window -->
+            <div class="window welcome-window" id="welcome-window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Welcome to DickButt (DickButt on INK)</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <img src="assets/images/dbi.gif" alt="DickButt" class="logo">
+                    <div class="content">
+                        <h1>DickButt</h1>
+                        <h2>Bringing back the old-school 2006 dickbutt meme.</h2>
+                        <p>No founders allocation. No pre-sale. No tax. Just dickbutt.</p>
+                        <div class="contract">0x21C97338b1EA81A0b49930483C70d5B79ABcf041</div>
+                        <div class="button-group">
+                            <button onclick="window.open('https://inkyswap.com/#/swap?outputCurrency=0x21C97338b1EA81A0b49930483C70d5B79ABcf041', '_blank')">Buy $DBI on INK</button>
+                            <button onclick="window.open('https://explorer.inkonchain.com/address/0x21C97338b1EA81A0b49930483C70d5B79ABcf041', '_blank')">Contract</button>
+                            <button onclick="window.open('https://dexscreener.com/ink/0x21c97338b1ea81a0b49930483c70d5b79abcf041', '_blank')">Dexscreener</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Roadmap and Tokenomics -->
+            <div class="windows-row">
+                <!-- Roadmap Window -->
+                <div class="window" id="roadmap-window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Roadmap</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Help"></button>
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <h2>World Dominance</h2>
+                        <ul>
+                            <li>Phase 1: Meme</li>
+                            <li>Phase 2: Community Building, Vibe and HODL</li>
+                            <li>Phase 3: Meme Takeover</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tokenomics Window -->
+                <div class="window" id="tokenomics-window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Tokenomics</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Help"></button>
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <h2>Total Supply: 1,000,000,000 $DBI</h2>
+                        <ul>
+                            <li>No Team Allocation</li>
+                            <li>No Presale</li>
+                            <li>0% Tax on Buys and Sells</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Command Prompt -->
+            <div class="window command-prompt">
+                <div class="title-bar">
+                    <div class="title-bar-text">Butt Prompt</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <pre id="output">DickButt on INK(R) QuirkyOS
+(C) Copyright DickButt Enterprises 2008-2024.
+
+Behold, the epic saga of Dick Butt: a tale of accidental hilarity that spiraled into internet fame. Imagine a character so bizarre, it loops right back to being genius. It's the kind of laugh that sneaks up on you, a masterstroke of comedic gold that proves sometimes, the best jokes are the ones you never see coming.
+
+Type 'help' for a list of available commands.</pre>
+                    <div class="input-line">
+                        <span id="prompt">C:\QUIRKY\SYSTEM32></span>
+                        <input type="text" id="commandInput">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Media Explorer -->
+            <div class="window" id="media-explorer">
+                <div class="title-bar">
+                    <div class="title-bar-text">DBI Media Explorer</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <div class="status-bar">
+                        <p>C:\DBI\Media</p>
+                        <p id="item-count">89 items</p>
+                        <p>420 MB available</p>
+                    </div>
+                    <ul id="file-list" class="file-list">
+                        <li data-image="assets/media/0DEtz8y.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            0DEtz8y.jpg
+                        </li>
+                        <li data-image="assets/media/0HxhlSN.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            0HxhlSN.jpg
+                        </li>
+                        <li data-image="assets/media/2WhV285.png">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            2WhV285.png
+                        </li>
+                        <li data-image="assets/media/3CG8bNP.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            3CG8bNP.jpg
+                        </li>
+                        <li data-image="assets/media/4qaBSh0.png">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            4qaBSh0.png
+                        </li>
+                        <li data-image="assets/media/6xq3D1M.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            6xq3D1M.jpg
+                        </li>
+                        <li data-image="assets/media/8ZxiKr9.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            8ZxiKr9.jpg
+                        </li>
+                        <li data-image="assets/media/8ul17D6.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            8ul17D6.jpg
+                        </li>
+                        <li data-image="assets/media/93ol9q2.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            93ol9q2.jpg
+                        </li>
+                        <li data-image="assets/media/D4NjGI4.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            D4NjGI4.mp4
+                        </li>
+                        <li data-image="assets/media/E7egGtP.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            E7egGtP.jpg
+                        </li>
+                        <li data-image="assets/media/HQQAk9B.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            HQQAk9B.mp4
+                        </li>
+                        <li data-image="assets/media/KO71y9a.png">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            KO71y9a.png
+                        </li>
+                        <li data-image="assets/media/Q4qAH30.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            Q4qAH30.jpg
+                        </li>
+                        <li data-image="assets/media/RV9etGx.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            RV9etGx.jpg
+                        </li>
+                        <li data-image="assets/media/S0oPlIh.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            S0oPlIh.jpg
+                        </li>
+                        <li data-image="assets/media/S4eDKkK.gif">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            S4eDKkK.gif
+                        </li>
+                        <li data-image="assets/media/Von1yuE.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            Von1yuE.jpg
+                        </li>
+                        <li data-image="assets/media/XFfBcsMg.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            XFfBcsMg.jpg
+                        </li>
+                        <li data-image="assets/media/dad.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            dad.mp4
+                        </li>
+                        <li data-image="assets/media/dickbutt-dickbutt-f.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            dickbutt-dickbutt-f.jpg
+                        </li>
+                        <li data-image="assets/media/dickbutt-fractal.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            dickbutt-fractal.mp4
+                        </li>
+                        <li data-image="assets/media/dickbutt.svg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            dickbutt.svg
+                        </li>
+                        <li data-image="assets/media/fek6X2x.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            fek6X2x.mp4
+                        </li>
+                        <li data-image="assets/media/gkr510Y.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            gkr510Y.mp4
+                        </li>
+                        <li data-image="assets/media/i6ljcjR.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            i6ljcjR.jpg
+                        </li>
+                        <li data-image="assets/media/lOMY7xi.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            lOMY7xi.jpg
+                        </li>
+                        <li data-image="assets/media/lY7zBf2.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            lY7zBf2.mp4
+                        </li>
+                        <li data-image="assets/media/pIT0fIt.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            pIT0fIt.jpg
+                        </li>
+                        <li data-image="assets/media/retrolaptop-dwb.png">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            retrolaptop-dwb.png
+                        </li>
+                        <li data-image="assets/media/sOf7GNv.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            sOf7GNv.mp4
+                        </li>
+                        <li data-image="assets/media/tzCbnkU.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            tzCbnkU.mp4
+                        </li>
+                        <li data-image="assets/media/videoplayback.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            videoplayback.mp4
+                        </li>
+                        <li data-image="assets/media/xUp6Ho8.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            xUp6Ho8.jpg
+                        </li>
+                        <li data-image="assets/media/ysb64G0g.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            ysb64G0g.jpg
+                        </li>
+                        <li data-image="assets/media/zSrpNTk.mp4">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            zSrpNTk.mp4
+                        </li>
+                        <li data-image="assets/media/zhezhi_dickbutt_by_zaunismycity_dhzrwpu-fullview.jpg">
+                            <img src="assets/images/file_icon.png" alt="file" width="16" height="16">
+                            zhezhi_dickbutt.jpg
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Media Viewer Dialog -->
+            <div class="window media-dialog" id="media-dialog" style="display: none;">
+                <div class="title-bar">
+                    <div class="title-bar-text" id="media-dialog-title">Media Viewer</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <div class="media-content" id="media-content">
+                    </div>
+                    <div class="status-bar">
+                        <p class="status-bar-field">Press ESC to close</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disclaimer Window -->
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Disclaimer</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Help"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <p>$DBI coin has no association with K.C. Green or his creation DickButt. This token is simply paying homage to a meme we all love and recognize.</p>
+                    <br>
+                    <p>$DBI is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. Just DickButts on INK</p>
+                    <br>
+                    <p>© 2024 by DickButt on INK. All rights reserved!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/script.js"></script>
+    <script type="module" src="assets/js/command.js"></script>
+    <script type="module" src="assets/js/webamp-init.js"></script>
+</body>
+</html> 
